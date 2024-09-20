@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079170302A187E28007FA556 /* iCoffeeAdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791702F2A187E28007FA556 /* iCoffeeAdminApp.swift */; };
+		079170322A187E28007FA556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079170312A187E28007FA556 /* ContentView.swift */; };
+		079170342A187E2B007FA556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079170332A187E2B007FA556 /* Assets.xcassets */; };
+		079170372A187E2B007FA556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079170362A187E2B007FA556 /* Preview Assets.xcassets */; };
+		0791703E2A187E8B007FA556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791703D2A187E8B007FA556 /* AppDelegate.swift */; };
+		079170402A187EB6007FA556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791703F2A187EB6007FA556 /* SceneDelegate.swift */; };
+		079170422A1881FF007FA556 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079170412A1881FF007FA556 /* GoogleService-Info.plist */; };
+		079170442A18838C007FA556 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079170432A18838C007FA556 /* Order.swift */; };
+		079170462A1883D8007FA556 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079170452A1883D8007FA556 /* Drink.swift */; };
+		079170482A188443007FA556 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079170472A188443007FA556 /* FUser.swift */; };
+		0791704A2A18848C007FA556 /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079170492A18848C007FA556 /* FirebaseReference.swift */; };
+		0791704C2A1884FE007FA556 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791704B2A1884FE007FA556 /* Constants.swift */; };
+		0791704E2A18852C007FA556 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791704D2A18852C007FA556 /* Extentions.swift */; };
+		079170522A18896F007FA556 /* OrderListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079170512A18896F007FA556 /* OrderListener.swift */; };
+		079822252A1916D9003AF877 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079822242A1916D9003AF877 /* OrderDetailView.swift */; };
+		079822272A191D35003AF877 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079822262A191D34003AF877 /* UserDetailView.swift */; };
+		079822292A192160003AF877 /* UserListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079822282A192160003AF877 /* UserListener.swift */; };
+		0C45708CE7279671CE22C674 /* Pods_iCoffeeAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F637F6750CAC071D03AE3FD /* Pods_iCoffeeAdmin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0791702C2A187E28007FA556 /* iCoffeeAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoffeeAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0791702F2A187E28007FA556 /* iCoffeeAdminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCoffeeAdminApp.swift; sourceTree = "<group>"; };
+		079170312A187E28007FA556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		079170332A187E2B007FA556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079170362A187E2B007FA556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0791703D2A187E8B007FA556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0791703F2A187EB6007FA556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		079170412A1881FF007FA556 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		079170432A18838C007FA556 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		079170452A1883D8007FA556 /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		079170472A188443007FA556 /* FUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		079170492A18848C007FA556 /* FirebaseReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		0791704B2A1884FE007FA556 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0791704D2A18852C007FA556 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		079170512A18896F007FA556 /* OrderListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListener.swift; sourceTree = "<group>"; };
+		079822242A1916D9003AF877 /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		079822262A191D34003AF877 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		079822282A192160003AF877 /* UserListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListener.swift; sourceTree = "<group>"; };
+		3F637F6750CAC071D03AE3FD /* Pods_iCoffeeAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffeeAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EB707A8BEC7F5DC34E112F /* Pods-iCoffeeAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffeeAdmin.debug.xcconfig"; path = "Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		DDD34FA1FB6B0F43F9AD8464 /* Pods-iCoffeeAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffeeAdmin.release.xcconfig"; path = "Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079170292A187E28007FA556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C45708CE7279671CE22C674 /* Pods_iCoffeeAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079170232A187E28007FA556 = {
+			isa = PBXGroup;
+			children = (
+				0791702E2A187E28007FA556 /* iCoffeeAdmin */,
+				0791702D2A187E28007FA556 /* Products */,
+				7815FBFC531CF68B7F23B7FA /* Pods */,
+				BB34146574E46587D04ED11D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0791702D2A187E28007FA556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0791702C2A187E28007FA556 /* iCoffeeAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0791702E2A187E28007FA556 /* iCoffeeAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				0791702F2A187E28007FA556 /* iCoffeeAdminApp.swift */,
+				0791703D2A187E8B007FA556 /* AppDelegate.swift */,
+				0791703F2A187EB6007FA556 /* SceneDelegate.swift */,
+				079170312A187E28007FA556 /* ContentView.swift */,
+				079822242A1916D9003AF877 /* OrderDetailView.swift */,
+				079822262A191D34003AF877 /* UserDetailView.swift */,
+				0798222E2A192DA3003AF877 /* Firebase Listeners */,
+				079170502A18882E007FA556 /* Model */,
+				0791704F2A188814007FA556 /* Helpers */,
+				079170332A187E2B007FA556 /* Assets.xcassets */,
+				079170412A1881FF007FA556 /* GoogleService-Info.plist */,
+				079170352A187E2B007FA556 /* Preview Content */,
+			);
+			path = iCoffeeAdmin;
+			sourceTree = "<group>";
+		};
+		079170352A187E2B007FA556 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				079170362A187E2B007FA556 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0791704F2A188814007FA556 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				079170492A18848C007FA556 /* FirebaseReference.swift */,
+				0791704B2A1884FE007FA556 /* Constants.swift */,
+				0791704D2A18852C007FA556 /* Extentions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		079170502A18882E007FA556 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				079170432A18838C007FA556 /* Order.swift */,
+				079170452A1883D8007FA556 /* Drink.swift */,
+				079170472A188443007FA556 /* FUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0798222E2A192DA3003AF877 /* Firebase Listeners */ = {
+			isa = PBXGroup;
+			children = (
+				079170512A18896F007FA556 /* OrderListener.swift */,
+				079822282A192160003AF877 /* UserListener.swift */,
+			);
+			path = "Firebase Listeners";
+			sourceTree = "<group>";
+		};
+		7815FBFC531CF68B7F23B7FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63EB707A8BEC7F5DC34E112F /* Pods-iCoffeeAdmin.debug.xcconfig */,
+				DDD34FA1FB6B0F43F9AD8464 /* Pods-iCoffeeAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB34146574E46587D04ED11D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F637F6750CAC071D03AE3FD /* Pods_iCoffeeAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0791702B2A187E28007FA556 /* iCoffeeAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0791703A2A187E2B007FA556 /* Build configuration list for PBXNativeTarget "iCoffeeAdmin" */;
+			buildPhases = (
+				0214AD4B3B4D8A48C3E0276A /* [CP] Check Pods Manifest.lock */,
+				079170282A187E28007FA556 /* Sources */,
+				079170292A187E28007FA556 /* Frameworks */,
+				0791702A2A187E28007FA556 /* Resources */,
+				1B544F934CD60D9D82D588A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCoffeeAdmin;
+			productName = iCoffeeAdmin;
+			productReference = 0791702C2A187E28007FA556 /* iCoffeeAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079170242A187E28007FA556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0791702B2A187E28007FA556 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 079170272A187E28007FA556 /* Build configuration list for PBXProject "iCoffeeAdmin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 079170232A187E28007FA556;
+			productRefGroup = 0791702D2A187E28007FA556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0791702B2A187E28007FA556 /* iCoffeeAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0791702A2A187E28007FA556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079170372A187E2B007FA556 /* Preview Assets.xcassets in Resources */,
+				079170342A187E2B007FA556 /* Assets.xcassets in Resources */,
+				079170422A1881FF007FA556 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0214AD4B3B4D8A48C3E0276A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCoffeeAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B544F934CD60D9D82D588A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079170282A187E28007FA556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079170522A18896F007FA556 /* OrderListener.swift in Sources */,
+				0791703E2A187E8B007FA556 /* AppDelegate.swift in Sources */,
+				079822252A1916D9003AF877 /* OrderDetailView.swift in Sources */,
+				079170322A187E28007FA556 /* ContentView.swift in Sources */,
+				079822272A191D35003AF877 /* UserDetailView.swift in Sources */,
+				0791704E2A18852C007FA556 /* Extentions.swift in Sources */,
+				0791704A2A18848C007FA556 /* FirebaseReference.swift in Sources */,
+				079170442A18838C007FA556 /* Order.swift in Sources */,
+				079170482A188443007FA556 /* FUser.swift in Sources */,
+				079170302A187E28007FA556 /* iCoffeeAdminApp.swift in Sources */,
+				079822292A192160003AF877 /* UserListener.swift in Sources */,
+				079170462A1883D8007FA556 /* Drink.swift in Sources */,
+				079170402A187EB6007FA556 /* SceneDelegate.swift in Sources */,
+				0791704C2A1884FE007FA556 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		079170382A187E2B007FA556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		079170392A187E2B007FA556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0791703B2A187E2B007FA556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63EB707A8BEC7F5DC34E112F /* Pods-iCoffeeAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iCoffeeAdmin/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y862K2JMP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJIOS.iCoffeeAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0791703C2A187E2B007FA556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD34FA1FB6B0F43F9AD8464 /* Pods-iCoffeeAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iCoffeeAdmin/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y862K2JMP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJIOS.iCoffeeAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079170272A187E28007FA556 /* Build configuration list for PBXProject "iCoffeeAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079170382A187E2B007FA556 /* Debug */,
+				079170392A187E2B007FA556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0791703A2A187E2B007FA556 /* Build configuration list for PBXNativeTarget "iCoffeeAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0791703B2A187E2B007FA556 /* Debug */,
+				0791703C2A187E2B007FA556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079170242A187E28007FA556 /* Project object */;
+}
